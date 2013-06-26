@@ -1,5 +1,5 @@
 ### JSUtil2 is a port of Underscore.js into Service Now's Server side.
-If you don't know what Underscore.js is, Please go ahead and read it all [here](http://www.underscorejs.org)
+If you don't know what Underscore.js is, Please go ahead and read it all [here](http://underscorejs.org/)
 
 Introduction: `Underscore JS` is an awesome library for Javascript which will simplify many of Array/List/Collection manipulations. __JSUtil2__ is a port of Underscore.js into Service Now Server side.
 For including Underscode.js into the server side, please store it as a UI Script, and call it in any UI Page you need.
