@@ -27,7 +27,7 @@ JSUtil2.each(obj,function(value){return value;})
 
 __Collection Manipulators:__
 
-- [Each](****#each)
+- [Each](#each)
 - Has 
 - Is Empty
 - Map 
