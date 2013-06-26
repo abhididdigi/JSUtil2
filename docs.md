@@ -27,7 +27,7 @@ JSUtil2.each(obj,function(value){return value;})
 
 #### `each`
 -------
-Description : `JSUtil.each` iterates over an object and an iterator in a given context. The signature of the function is given below:
+Description : `JSUtil2.each` iterates over an object and an iterator in a given context. The signature of the function is given below:
 
 ```
 JSUtil2.each()JSUtil2.each = function(list,iterator,[context])
