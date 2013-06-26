@@ -27,7 +27,7 @@ JSUtil2.each(obj,function(value){return value;})
 
 __Collection Manipulators:__
 
-- [Each](/abhididdigi/JSUtil2/blob/master/docs.md#each)
+- [Each](#each)
 - Has 
 - Is Empty
 - Map 
