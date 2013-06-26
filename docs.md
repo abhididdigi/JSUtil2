@@ -25,7 +25,7 @@ JSUtil2.each(obj,function(value){return value;})
 ## List of functions:
 -----------------------
 
-__ Collection Manipulators: __
+__Collection Manipulators:__
 
 - [Each](/abhididdigi/JSUtil2/blob/master/docs.md#each)
 - Has 
@@ -35,9 +35,9 @@ __ Collection Manipulators: __
 - Filter
 - Where
 - Pluck
--
 
-__ Array Manipulators: __
+
+__Array Manipulators:__
 
 - CheckArray
 - First
