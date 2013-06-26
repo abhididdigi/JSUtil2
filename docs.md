@@ -7,7 +7,7 @@ For including Underscode.js into the server side, please store it as a UI Script
 This doc will contain the methods that are ported and their usage:
 
 #### A note about the usage of JSUtil2:
-All the methods of JSUtil2 can be called without creating an object of JSUtil2.
+All the methods of JSUtil2 can be called without creating an object of JSUtil2.In Java terminology(I'm from a Java background, we call such functions static functions)
 
 *Example* : Let's call the method `each` of JSUtil2:
 
@@ -23,9 +23,34 @@ JSUtil2.each(obj,function(value){return value;})
 
 
 ## List of functions:
+-----------------------
+
+__ Collection Manipulators: __
+
+- [Each](/abhididdigi/JSUtil2/blob/master/docs.md#each)
+- Has 
+- Is Empty
+- Map 
+- Find
+- Filter
+- Where
+- Pluck
+-
+
+__ Array Manipulators: __
+
+- CheckArray
+- First
+- Last
+- Compact 
 
 
-#### `each`
+
+
+*****************************************
+
+
+#### each
 -------
 Description : `JSUtil2.each` iterates over an object and an iterator in a given context. The signature of the function is given below:
 
@@ -49,7 +74,7 @@ var arr =  [1,2,3];
 
 JSUtil2.each(arr,logMe);
 ```
-__Output:__
+*Output:*
 ```
 Script : *** 1,2,3****
 
