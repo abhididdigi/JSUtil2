@@ -49,7 +49,7 @@ var arr =  [1,2,3];
 
 JSUtil2.each(arr,logMe);
 ```
-__ Output: __
+__Output:__
 ```
 Script : *** 1,2,3****
 
