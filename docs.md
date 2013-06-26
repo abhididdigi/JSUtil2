@@ -1,13 +1,13 @@
 ### JSUtil2 is a port of Underscore.js into Service Now's Server side.
 If you don't know what Underscore.js is, Please go ahead and read it all [here](http://underscorejs.org/)
 
-Introduction: `Underscore JS` is an awesome library for Javascript which will simplify many of Array/List/Collection manipulations. __JSUtil2__ is a port of Underscore.js into Service Now Server side.
+**Introduction:**  Underscore JS is an awesome library for Javascript which will simplify many of Array/List/Collection manipulations. __JSUtil2__ is a port of Underscore.js to Service Now Server side.
 For including Underscode.js into the server side, please store it as a UI Script, and call it in any UI Page you need.
 
 This doc will contain the methods that are ported and their usage:
 
 #### A note about the usage of JSUtil2:
-All the methods of JSUtil2 can be called without creating an object of JSUtil2.In Java terminology(I'm from a Java background, we call such functions static functions)
+All the methods of JSUtil2 can be called without creating an object of JSUtil2.
 
 *Example* : Let's call the method `each` of JSUtil2:
 
@@ -27,7 +27,7 @@ JSUtil2.each(obj,function(value){return value;})
 
 __Collection Manipulators:__
 
-- [Each](#each)
+- [Each](****#each)
 - Has 
 - Is Empty
 - Map 
