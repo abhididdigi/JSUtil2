@@ -47,11 +47,11 @@ __Array Manipulators:__
 
 
 
-*****************************************
+****************************************************
 
 
-#### each
--------
+### each
+
 Description : `JSUtil2.each` iterates over an object and an iterator in a given context. The signature of the function is given below:
 
 ```
@@ -80,6 +80,37 @@ Script : *** 1,2,3****
 
 
 ```
+--------------------------------------------------------------
+### has 
+Description : `has` method checks if the object has the given key. You can also use JSUtil's `contains` method.
+
+Signature :
+
+```
+JSUtil2.has(obj,key);
+```
+
+Obj - The object we are trying to check for key.
+Key - The keys to be checked if present.
+
+*Example:*
+
+```
+var obj  = {"name":"Abhiram","class":"CSEB","College":"VasaviCollege"};
+gs.log(JSUtil2.has(obj,'name'));
+
+```
+
+*Output*
+
+```
+*** Script: true
+```
+
+
+
+
+
 
 
 
