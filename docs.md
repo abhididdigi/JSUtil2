@@ -141,7 +141,7 @@ Description : `map` produces a new array of values as per the iterator function 
 
 --------------------------------------------------------------------
 
- ### checkArray:
+### checkArray:
 
 Description : checks if the passed object is an Array.
 
