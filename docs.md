@@ -34,7 +34,7 @@ __Collection Manipulators:__
 - [Has](#has) 
 - [Is Empty](#isempty)
 - [Map](http://underscorejs.org/#map) 
-- Find
+- Find :  An alternate implementation of Underscore's `where`
 - [Filter](http://underscorejs.org/#filter)
 - [Where](http://underscorejs.org/#where)
 - [Pluck](http://underscorejs.org/#pluck)
@@ -42,7 +42,7 @@ __Collection Manipulators:__
 
 __Array Manipulators:__
 
-- CheckArray
+- (CheckArray)[#checkarray]
 - [First](http://underscorejs.org/#first)
 - [Last](http://underscorejs.org/#last)
 - [Compact](http://underscorejs.org/#compact)
@@ -141,7 +141,7 @@ Description : `map` produces a new array of values as per the iterator function 
 
 --------------------------------------------------------------------
 
-##checkArray:
+ ### checkArray:
 
 Description : checks if the passed object is an Array.
 
