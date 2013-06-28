@@ -111,7 +111,7 @@ gs.log(JSUtil2.has(obj,'name'));
 ```
 -----------------------------------------------------------------------------------
 
-Is Empty:
+### isEmpty:
 
 Description : `isEmpty` checks if a list is empty. For objects you can also use `JSUtil.nil()` to check the emptypness of a list. This also checks for empty string.
 
