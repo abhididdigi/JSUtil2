@@ -42,7 +42,7 @@ __Collection Manipulators:__
 
 __Array Manipulators:__
 
-- (CheckArray)[#checkarray]
+- [CheckArray](#checkarray)
 - [First](http://underscorejs.org/#first)
 - [Last](http://underscorejs.org/#last)
 - [Compact](http://underscorejs.org/#compact)
