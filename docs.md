@@ -109,8 +109,30 @@ gs.log(JSUtil2.has(obj,'name'));
 ```
 *** Script: true
 ```
+-----------------------------------------------------------------------------------
 
+Is Empty:
 
+Description : `isEmpty` checks if a list is empty. For objects you can also use `JSUtil.nil()` to check the emptypness of a list. This also checks for empty string.
+
+Signature:
+
+```
+JSUtil2.isEmpty(obj);
+```
+Obj - Object you want to check for emptyness.
+
+Example: 
+
+```
+var obj = {};
+new JSUtil2.isEmpty(obj);
+```
+Output:
+```
+***Script true
+
+```
 
 
 
