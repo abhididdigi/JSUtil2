@@ -32,20 +32,20 @@ __Collection Manipulators:__
 
 - [Each](#each)
 - [Has](#has) 
-- Is Empty
-- Map 
+- [Is Empty](#isempty)
+- [Map](http://underscorejs.org/#map) 
 - Find
-- Filter
-- Where
-- Pluck
+- [Filter](http://underscorejs.org/#filter)
+- [Where](http://underscorejs.org/#where)
+- [Pluck](http://underscorejs.org/#pluck)
 
 
 __Array Manipulators:__
 
 - CheckArray
-- First
-- Last
-- Compact 
+- [First](http://underscorejs.org/#first)
+- [Last](http://underscorejs.org/#last)
+- [Compact](http://underscorejs.org/#compact)
 
 
 
@@ -133,6 +133,25 @@ Output:
 ***Script true
 
 ```
+-------------------------------------------------------------
+
+### map:
+
+Description : `map` produces a new array of values as per the iterator function defined.
+
+--------------------------------------------------------------------
+
+##checkArray:
+
+Description : checks if the passed object is an Array.
+
+-----------------------------------------------------------------------
+
+
+
+I feel with the above examples, the usage of JSUtil2 is clear. For other methods, and what they do, please refer to Underscore.js's page. I've linked the  respective methods in the index. 
+
+Usage though, will still remain the same as explained above.
 
 
 
