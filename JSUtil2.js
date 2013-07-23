@@ -190,6 +190,7 @@ JSUtil2.compact = function(arg){
    
 };
 
+//Filters a given array
 JSUtil2.uniq = function(arr){
    var seen = [];
    var i=0;
