@@ -190,6 +190,34 @@ JSUtil2.compact = function(arg){
    
 };
 
+JSUtil2.uniq = function(arr){
+   var seen = [];
+   var i=0;
+   while(arr[i]){
+      if(seen.length == '0'){
+         seen.push(arr[i]);
+      }
+      else{
+         if(JSUtil.contains(seen, arr[i])){ 
+			//donothing 
+           
+		 }
+            else{  seen.push(arr[i]);  }
+            
+         
+         
+      }
+      
+      i++;
+   }
+   return seen;
+   
+   
+   
+   
+   
+};
+
 
 
 
