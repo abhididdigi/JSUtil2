@@ -51,7 +51,7 @@ __Array Manipulators:__
 - [Compact](http://underscorejs.org/#compact)
 
 __Other Helpers:__
-- [Validate JSON](#validateJSON)
+- [Validate JSON](#validatejson)
 
 
 
