@@ -225,7 +225,7 @@ if (/^[\],:{}\s]*$/
    .replace(/"[^"\\\n\r]*"|true|false|null|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?/g, ']')
    .replace(/(?:^|:|,)(?:\s*\[)+/g, ''))) {
       
-	  gs.log('inside');
+	  
       return true;
    }
    return false;
