@@ -219,6 +219,19 @@ JSUtil2.uniq = function(arr){
    
 };
 
+JSUtil2.validateJSON = function(text){
+if (/^[\],:{}\s]*$/
+      .test(text.replace(/\\(?:["\\\/bfnrt]|u[0-9a-fA-F]{4})/g, '@')
+   .replace(/"[^"\\\n\r]*"|true|false|null|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?/g, ']')
+   .replace(/(?:^|:|,)(?:\s*\[)+/g, ''))) {
+      
+	  gs.log('inside');
+      return true;
+   }
+   return false;
+
+}
+
 
 
 
