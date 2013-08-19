@@ -50,6 +50,9 @@ __Array Manipulators:__
 - [Last](http://underscorejs.org/#last)
 - [Compact](http://underscorejs.org/#compact)
 
+__Other Helpers:__
+- [Validate JSON](#validateJSON)
+
 
 
 
@@ -149,6 +152,36 @@ Description : `map` produces a new array of values as per the iterator function 
 Description : checks if the passed object is an Array.
 
 -----------------------------------------------------------------------
+
+### validateJSON:
+
+Description: Checks if the string passed is a valid JSON. Returns false for all other object types(Objects/arrays)
+
+Signature:
+
+```
+JSUtil2.validateJSON(text) 
+
+```
+text - the value of the JSON string you want to check.
+
+Example:
+
+```
+var text = 'abhiram' // not a valid JSON
+var flag1 = JSUtil2.validateJSON(text)
+text = '{"key":"value"}';
+var flag2 = JSUtil2.validateJSON(text);
+
+```
+Output:
+```
+flag1 ==> false
+flag2 ==> true
+```
+
+
+
 
 
 
