@@ -155,7 +155,7 @@ Description : checks if the passed object is an Array.
 
 ### validateJSON:
 
-Description: Checks if the string passed is a valid JSON. Returns false for all other object types(Objects/arrays)
+Description: Checks if the string passed is a valid JSON. Returns false for all invalid JSON strings and other object types(Objects/arrays)
 
 Signature:
 
