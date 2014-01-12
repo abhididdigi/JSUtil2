@@ -232,6 +232,18 @@ if (/^[\],:{}\s]*$/
 
 }
 
+//Great script taken from Gaidem's blog to handle the paramters from a URL: 
+//http://community.servicenow.com/blog/gaidem/great-script-uri-parms
+
+JSUtil2.readFromURL = function(url,param){
+   name = name.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");  
+   var regexS = "[\\?&]"+name+"=([^&#]*)";  
+   var regex = new RegExp( regexS );  
+   var results = regex.exec( url_pass ); 
+   if( results == null )    return "";  
+   else    return results[1];
+}
+
 
 
 
